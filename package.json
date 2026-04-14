@@ -3,6 +3,7 @@
   "displayName": "add-git-repos",
   "description": "This is a vscode extension that allows you to manually add git repos to the repository explorer when `git.autoRepositoryDetection` is false. You can select one or more directories in the file explorer and right-click and then select `Add Git Repos from Selection`",
   "version": "0.0.1",
+  "repository": "github:cody35367/add-git-repos",
   "engines": {
     "vscode": "^1.115.0"
   },

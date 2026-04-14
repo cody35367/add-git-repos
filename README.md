@@ -2,6 +2,14 @@
 
 This is a vscode extension that allows you to manually add git repos to the repository explorer when `git.autoRepositoryDetection` is false. You can select one or more directories in the file explorer and right-click and then select `Add Git Repos from Selection`
 
+# Install Node
+
+```bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.4/install.sh | bash
+# Restart shell
+nvm install node
+```
+
 # How it was created
 
 ```bash
@@ -32,4 +40,10 @@ file explorer and right-click and then select `Add Git Repos from Selection`
 ✔ Initialize a git repository? Yes
 `list` prompt is deprecated. Use `select` prompt instead.
 ✔ Which package manager to use? npm
+```
+
+# Package and Install
+```bash
+npx --package @vscode/vsce -- vsce package
+code --install-extension add-git-repos-0.0.1.vsix
 ```
