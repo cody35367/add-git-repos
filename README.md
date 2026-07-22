@@ -45,5 +45,5 @@ file explorer and right-click and then select `Add Git Repos from Selection`
 # Package and Install
 ```bash
 npx --package @vscode/vsce -- vsce package
-code --install-extension add-git-repos-0.0.1.vsix
+code --install-extension add-git-repos-1.0.0.vsix
 ```
